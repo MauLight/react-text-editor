@@ -10,3 +10,19 @@
 .btn {
   font-family: 'Roboto', sans-serif;
 }
+
+.wrapper-class {
+  background-color: whitesmoke;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.editor-class {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.toolbar-class {
+  border: 1px solid #ccc;
+}

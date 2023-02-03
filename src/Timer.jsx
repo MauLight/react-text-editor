@@ -34,12 +34,12 @@ export const Timer = () => {
             setMinutes(minutes => minutes - 1);
             setSeconds(59);
         }
-        else if (minutes == 0) {
+        else if (minutes === 0) {
             alert("'Time's up!")
             reset();
         }
         return () => clearInterval(interval);
-    }, [isActive, seconds]);
+    }, [isActive, seconds, minutes]);
 
     return (
         <div className='container mb-4'>
