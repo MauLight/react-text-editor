@@ -5,6 +5,11 @@
 .timer {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 100px;
+  font-weight: 100;
+}
+
+.calendar-title {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .btn {
@@ -26,3 +31,4 @@
 .toolbar-class {
   border: 1px solid #ccc;
 }
+
